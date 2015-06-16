@@ -1,0 +1,20 @@
+{
+  "name": "jhoblitt-bluejeans",
+  "version": "0.1.0",
+  "author": "Joshua Hoblitt <jhoblitt@cpan.org>",
+  "summary": "Manages the google-talkplugin package",
+  "license": "Apache-2.0",
+  "source": "https://github.com/jhoblitt/puppet-bluejeans.git",
+  "project_page": "https://github.com/jhoblitt/puppet-bluejeans",
+  "issues_url": "https://github.com/jhoblitt/puppet-bluejeans/issues",
+  "operatingsystem_support": [
+    { "operatingsystem": "RedHat", "operatingsystemrelease": [ "7" ] },
+    { "operatingsystem": "CentOS", "operatingsystemrelease": [ "7" ] },
+    { "operatingsystem": "Scientific", "operatingsystemrelease": [ "7" ] },
+    { "operatingsystem": "Fedora", "operatingsystemrelease": [ "21", "22" ] }
+  ],
+  "dependencies": [
+    { "name": "puppetlabs/stdlib", "version_requirement": ">= 4.6.0 < 5.0.0" },
+    { "name": "stschulte/rpmkey", "version_requirement": ">= 1.0.0 < 2.0.0" }
+  ]
+}
