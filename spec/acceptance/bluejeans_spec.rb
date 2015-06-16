@@ -15,11 +15,11 @@ describe 'bluejeans class' do
       apply_manifest(pp, :catch_changes => true)
     end
 
-    describe package('google-talkplugin') do
+    describe package('bjnplugin') do
       it { should be_installed }
     end
 
-    describe yumrepo('google-talkplugin') do
+    describe yumrepo('bluejeans') do
       it { should be_enabled }
     end
   end

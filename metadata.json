@@ -2,7 +2,7 @@
   "name": "jhoblitt-bluejeans",
   "version": "0.1.0",
   "author": "Joshua Hoblitt <jhoblitt@cpan.org>",
-  "summary": "Manages the google-talkplugin package",
+  "summary": "Manages the Blue Jeans Browser Plug-in",
   "license": "Apache-2.0",
   "source": "https://github.com/jhoblitt/puppet-bluejeans.git",
   "project_page": "https://github.com/jhoblitt/puppet-bluejeans",

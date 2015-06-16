@@ -1,5 +1,5 @@
 Puppet bluejeans Module
-===============================
+=======================
 
 [![Build Status](https://travis-ci.org/jhoblitt/puppet-bluejeans.png)](https://travis-ci.org/jhoblitt/puppet-bluejeans)
 
@@ -19,7 +19,7 @@ Puppet bluejeans Module
 Overview
 --------
 
-Manages the google-talkplugin package
+Manages the Blue Jeans Browser Plug-in
 
 Usage
 -----
@@ -44,15 +44,6 @@ Limitations
 * el7.x
 * Fedora 21
 * Fedora 22
-
-Requires a newer version of glibc than is present on el6.x:
-
-```
-Error: Package: google-talkplugin-5.41.0.0-1.x86_64 (google-talkplugin)
-           Requires: libstdc++.so.6(GLIBCXX_3.4.15)(64bit)
-Error: Package: google-talkplugin-5.41.0.0-1.x86_64 (google-talkplugin)
-           Requires: libc.so.6(GLIBC_2.14)(64bit)
-```
 
 
 Versioning
@@ -92,4 +83,4 @@ Contributing
 See Also
 --------
 
-* [Hangouts plugin](https://www.google.com/tools/dlpage/hangoutplugin)
+* [Blue Jeans Browser Plug-in](http://bluejeans.com/downloads)

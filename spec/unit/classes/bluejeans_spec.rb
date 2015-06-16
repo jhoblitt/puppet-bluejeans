@@ -4,8 +4,8 @@ describe 'bluejeans', :type => :class do
   context 'on osfamily RedHat' do
     let(:facts) {{ :osfamily => 'RedHat' }}
 
-    it { should contain_yumrepo('google-talkplugin') }
-    it { should contain_package('google-talkplugin') }
+    it { should contain_yumrepo('bluejeans') }
+    it { should contain_package('bjnplugin') }
   end
 
   context 'on osfamily Solaris' do

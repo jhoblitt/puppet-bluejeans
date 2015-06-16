@@ -7,7 +7,7 @@ class bluejeans::params {
   case $::osfamily {
     'RedHat': {
       $manage_repo  = true
-      $package_name = 'google-talkplugin'
+      $package_name = 'bjnplugin'
     }
     default: {
       fail("${::osfamily} is not supported")

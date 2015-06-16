@@ -7,16 +7,16 @@ class bluejeans::repo {
     fail("Use of private class ${name} by ${caller_module_name}")
   }
 
-  rpmkey { '7FAC5991':
+  rpmkey { '5FF054BD':
     ensure => present,
-    source => 'https://dl.google.com/linux/linux_signing_key.pub',
+    source => 'https://swdl.bluejeans.com/repos/bluejeans/bjn-key',
   } ->
-
-  yumrepo { 'google-talkplugin':
+  yumrepo { 'bluejeans':
     ensure   => 'present',
-    baseurl  => 'http://dl.google.com/linux/talkplugin/rpm/stable/x86_64',
-    descr    => 'google-talkplugin',
+    baseurl  => 'https://swdl.bluejeans.com/repos/bluejeans/x86_64/release/rpm',
+    descr    => 'Blue Jeans Network, Inc. - x86_64 software and updates',
     enabled  => '1',
     gpgcheck => '1',
+    gpgkey   => 'https://swdl.bluejeans.com/repos/bluejeans/bjn-key',
   }
 }
